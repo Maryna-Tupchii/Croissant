@@ -39,6 +39,12 @@ h3 {
   line-height: 2.5;
 }
 
+p {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 60px;
+}
+
 i {
   color: whitesmoke;
 }
