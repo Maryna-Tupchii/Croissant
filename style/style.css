@@ -7,7 +7,7 @@ body {
 }
 
 #portfolio {
-  margin: 180px auto;
+  margin: 140px auto;
   max-width: 800px;
 }
 
@@ -21,28 +21,37 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin-top: 20px;
   font-family: "Roboto Serif", serif;
   color: whitesmoke;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 34px;
+  position: relative;
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h3 {
   font-size: 24px;
-  line-height: 2.5;
+  line-height: 1.5;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p {
   color: whitesmoke;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 80px;
+  padding-top: 40px;
 }
 
 i {
@@ -55,7 +64,6 @@ i {
 }
 
 .navigation-links a {
-  margin: 20px;
   border-radius: 30px;
   padding: 20px 15px;
   text-decoration: none;
@@ -109,4 +117,8 @@ i {
   text-decoration: none;
   padding: 15px 10px;
   border-radius: 4px;
+}
+
+#photo {
+  width: 500px;
 }
