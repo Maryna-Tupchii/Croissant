@@ -9,13 +9,13 @@ body {
     rgba(0, 0, 0, 0.93) 11.2%,
     rgb(63, 61, 61) 78.9%
   );
+  font-family: var(--main-font-family);
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-  font-family: "Roboto Serif", serif;
   color: var(--primary-color);
 }
 
@@ -40,12 +40,22 @@ h3 {
 p {
   color: var(--primary-color);
   text-align: center;
-  margin-top: 80px;
+  margin-top: 0;
   padding-top: 40px;
 }
 
 i {
   color: var(--primary-color);
+  font-size: 2em;
+}
+
+i:hover {
+  color: var(--secondary-color);
+  font-size: 2.2em;
+}
+
+li {
+  list-style: none;
 }
 
 .introduction {
@@ -64,16 +74,21 @@ i {
 
 .navigation-links a {
   border-radius: 30px;
-  padding: 20px 15px;
+  padding: 20px 30px;
   text-decoration: none;
   text-transform: capitalize;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .contact-link {
   background-color: var(--primary-color);
   color: black;
   border-radius: 30%;
+}
+
+.contact-link:hover {
+  color: var(--secondary-color);
 }
 
 .about-link {
@@ -87,34 +102,11 @@ i {
   display: block;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
+.email {
   color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
 }
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.primary-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  text-decoration: none;
-  padding: 15px 10px;
-  border-radius: 4px;
+.email:hover {
+  color: var(--secondary-color);
 }
 
 #portfolio {
