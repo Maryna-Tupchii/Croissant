@@ -56,19 +56,19 @@ i:hover {
 
 li {
   list-style: none;
+  color: var(--primary-color);
 }
 
 .introduction {
   background-image: url(/images/photo1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 50%;
   background-position: center;
-  padding-top: 60px;
-  padding-bottom: 200px;
+  padding-top: 180px;
+  height: 900px;
 }
 .navigation-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
 }
 
@@ -110,12 +110,12 @@ li {
 }
 
 #portfolio {
-  margin: 140px auto;
+  margin: 100px auto;
   max-width: 800px;
 }
 
 #logo {
-  width: 160px;
+  width: 200px;
   margin: 0;
   padding: 0;
 }
