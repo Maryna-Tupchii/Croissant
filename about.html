@@ -70,10 +70,8 @@
             <a class="nav-link active" href="about.html" title="About-me"
               >About Me</a
             >
-               <a class="nav-link" href="about.html#email-link" title="work"
-                >Work</a
-              >
-            <a class="nav-link" href="#email-link" title="contact">Contact</a>
+            <a class="nav-link" href="work.html" title="work">Work</a>
+            <a class="nav-link" href="contact.html" title="contact">Contact</a>
           </div>
         </div>
       </div>
@@ -85,25 +83,36 @@
     <div class="about-me container">
       <div class="row">
         <div class="col-lg-6">
-          <h1>Marina Tupchii</h1>
-          <h3>What I do:</h3>
-          <p class="skills">
-            <ul>
-              <li>Make your ideas real</li>
-              <li>Work with Figma/Invisionapp</li>
-              <li>Work with HTML, CSS, Js</li>
-              <li>Responsive interfaces</li>
-              <li>Make repositiries in GitHub</li>
-            </ul>
-          </p>
+          <h1 class="name mt-o" id="name">Marina Tupchii</h1>
+          <h3 id="my-skills">What I do:</h3>
+
+          <ul>
+            <li>Make your ideas real.</li>
+            <li>Work with Figma/Invisionapp.</li>
+            <li>Work with HTML, CSS, Js.</li>
+            <li>Responsive interfaces.</li>
+            <li>Make repositories in GitHub.</li>
+          </ul>
+          <a href="work.html" class="view-my-projects btn btn-branding mb-4"
+            >View my projects</a
+          >
+          <h3 id="contactMe">Contact Me:</h3>
+          <form action="" class="form">
+            <label id="getName" for="GET-name">Name:</label>
+            <input id="getName" type="text" name="name" />
+            <label for="telNo" id="telNo">Phone number:</label>
+            <input id="telNo" name="telNo" type="tel" />
+            <label for="eMail" id="eMail">E-mail:</label>
+            <input id="eMail" name="eail" type="email" />
+          </form>
         </div>
         <div class="col-lg-6">
-          <img src="images/profile-photo.jpg" class = "img-fluid"alt="profile-photo">
-      <h3>Contact Me:</h3>
-     <form action="">
-
-
-     </form>
+          <img
+            src="images/profile-photo.jpg"
+            class="img-fluid"
+            alt="profile-photo"
+            id="about-me-photo"
+          />
         </div>
       </div>
     </div>
