@@ -77,64 +77,106 @@
       </div>
     </div>
   </nav>
-  <a href="index.html" class="homepage-link" title="home-page"
-    >Back to Homepage</a
-  >
-  <div class="contacts container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>
-          Hey there!<br />
-          ask me anything!
-        </h1>
-        <a
-          href="mailto:marinak2008.89@gmail.com"
-          class="email text-decoration-none"
-          >marinak2008.89@gmail.com</a
-        >
-        <div class="footer d-flex mt-4 justify-content-center">
-          <ul class="d-inline-flex p-0">
-            <li>
-              <a
-                href="https://www.instagram.com/marina_tupchii/"
-                target="_blank"
-                rel="nofallow"
-                title="instagram-profile"
-              >
-                <i class="fa-brands fa-instagram p-2"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/marina-tupchii-750b12217/"
-                target="_blank"
-                rel="nofallow"
-                title="linkedin-profile"
-              >
-                <i class="fa-brands fa-linkedin p-2"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://t.me/marina_tupchii"
-                target="_blank"
-                rel="nofallow"
-                title="telegram-profile"
-                ><i class="fa-brands fa-telegram p-2"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
 
+  <div class="contacts container text-center">
+    <h1 class="projects">
+      Hey there!<br />
+      ask me anything!
+    </h1>
+    <a href="mailto:marinak2008.89@gmail.com" class="email text-decoration-none"
+      >marinak2008.89@gmail.com</a
+    >
+    <div>
+      <ul class="d-inline-flex p-0">
+        <li>
+          <a
+            href="https://www.instagram.com/marina_tupchii/"
+            target="_blank"
+            rel="nofallow"
+            title="instagram-profile"
+          >
+            <i class="fa-brands fa-instagram p-2"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/marina-tupchii-750b12217/"
+            target="_blank"
+            rel="nofallow"
+            title="linkedin-profile"
+          >
+            <i class="fa-brands fa-linkedin p-2"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://t.me/marina_tupchii"
+            target="_blank"
+            rel="nofallow"
+            title="telegram-profile"
+            ><i class="fa-brands fa-telegram p-2"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <form action="">
-            <label id="getName" for="GET-name">Name:</label>
-            <input id="getName" type="text" name="name" />
-            <label for="telNo" id="telNo">Phone number:</label>
-            <input id="telNo" name="telNo" type="tel" />
+          <form style="color: white">
+            <div class="mb-2 col-6">
+              <label for="exampleInputName" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="exampleInputName" />
+            </div>
+            <div class="mb-3 col-6">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3 col-6">
+              <label for="exampleInputEmail1" class="form-label"
+                >Phone number:</label
+              >
+              <input
+                type="tel"
+                class="form-control"
+                id="exampleInputTel"
+                aria-describedby="tellHelp"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="view-my-projects btn btn-branding mb-4"
+            >
+              Submit
+            </button>
           </form>
+        </div>
+        <div class="col-lg-6">
+          <div class="mb-3 col-6">
+            <label
+              for="exampleInputextarea"
+              class="form-label"
+              style="color: white"
+              >Leave your message:</label
+            >
+            <textarea
+              name="comment"
+              form="usrform"
+              class="form-control"
+              rows="6"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="view-my-projects btn btn-branding mb-4">
+            Send
+          </button>
         </div>
       </div>
     </div>
