@@ -64,6 +64,10 @@ ul {
   line-height: 2;
 }
 
+label {
+  display: block;
+}
+
 .introduction {
   background-image: url(/images/photo1.png);
   background-repeat: no-repeat;
@@ -129,8 +133,19 @@ ul {
   margin-top: 142px;
 }
 
-label {
-  display: block;
+.projects {
+  margin-top: 112px;
+}
+
+.project-img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  border-radius: 8px;
+}
+.project-img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  margin-bottom: 20px;
 }
 
 #portfolio {
