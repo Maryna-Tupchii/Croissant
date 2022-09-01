@@ -54,18 +54,47 @@ i:hover {
   font-size: 2.2em;
 }
 
-li {
+li#skills {
   list-style: none;
   color: var(--primary-color);
 }
 
-ul {
+ul.skills {
   padding-left: 0;
   line-height: 2;
 }
 
 label {
   display: block;
+}
+
+nav {
+  padding-top: 60px;
+  margin: 0 80px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  color: var(--primary-color);
+  line-height: 40px;
+  font-size: 24px;
+  margin-left: 20px;
+  transition: all 100ms ease-in-out;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li:hover,
+nav li.active {
+  color: var(--secondary-color);
 }
 
 .introduction {
@@ -130,11 +159,7 @@ label {
   color: var(--secondary-color);
 }
 .about-me {
-  margin-top: 142px;
-}
-
-.projects {
-  margin-top: 112px;
+  margin-top: 40px;
 }
 
 .project-img {
@@ -154,7 +179,7 @@ label {
 }
 
 #logo {
-  width: 200px;
+  max-height: 120px;
   margin: 0;
   padding: 0;
 }
@@ -195,4 +220,48 @@ label {
   color: var(--secondary-color);
   font-weight: bold;
   padding-top: 20px;
+}
+
+@media (max-width: 900px) {
+  nav li {
+    font-size: 14px;
+  }
+
+  nav {
+    margin: 0;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    text-align: center;
+    line-height: 1.5;
+    padding: 40px 14px;
+  }
+  .introduction {
+    height: 540px;
+    padding-top: 20px;
+    background-size: 100%;
+  }
+  .email-me {
+    padding: 0;
+  }
+
+  #about-me-photo {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+  }
+  .about-me {
+    margin-left: 28px;
+  }
+
+  #project-img {
+    width: 70%;
+  }
 }

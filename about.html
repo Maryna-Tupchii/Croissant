@@ -42,43 +42,23 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand ps-5" href="index.html"
-          ><img src="images/logo2.png" alt="logo" id="logo"
+    <div class="container-fluid">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html"
+          ><img
+            src="images/logo.png"
+            alt="logo"
+            id="logo"
+            class="d-none d-lg-block"
         /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-link"
-              aria-current="page"
-              href="index.html"
-              title="Home-page"
-              >Home</a
-            >
-            <a class="nav-link active" href="about.html" title="About-me"
-              >About Me</a
-            >
-            <a class="nav-link" href="work.html" title="work">Work</a>
-            <a class="nav-link" href="contact.html" title="contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <a href="index.html" class="homepage-link" title="home-page"
-      >Back to Homepage</a
-    >
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"> <li class="active">About Me</li></a>
+          <a href="work.html"><li>Work</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </div>
 
     <div class="about-me container">
       <div class="row">
@@ -86,12 +66,12 @@
           <h1 class="name mt-o" id="name">Marina Tupchii</h1>
           <h3 id="my-skills">What I do:</h3>
 
-          <ul>
-            <li>Make your ideas real.</li>
-            <li>Work with Figma/Invisionapp.</li>
-            <li>Work with HTML, CSS, Js.</li>
-            <li>Responsive interfaces.</li>
-            <li>Make repositories in GitHub.</li>
+          <ul class="skills">
+            <li id="skills">Make your ideas real.</li>
+            <li id="skills">Work with Figma/Invisionapp.</li>
+            <li id="skills">Work with HTML, CSS, Js.</li>
+            <li id="skills">Responsive interfaces.</li>
+            <li id="skills">Make repositories in GitHub.</li>
           </ul>
           <a href="work.html" class="view-my-projects btn btn-branding mb-4"
             >View my projects</a

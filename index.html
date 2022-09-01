@@ -43,39 +43,24 @@
   </head>
 
   <body>
-    <div id="portfolio container">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand ps-5" href="#"
-            ><img src="images/logo2.png" alt="logo" id="logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-              <a class="nav-link" href="about.html" title="about-me"
-                >About Me</a
-              >
-              <a class="nav-link" href="work.html" title="work">Work</a>
-              <a class="nav-link" href="contact.html" title="contact"
-                >Contact</a
-              >
-            </div>
-          </div>
-        </div>
+    <div class="container-fluid">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html"
+          ><img
+            src="images/logo.png"
+            alt="logo"
+            id="logo"
+            class="d-none d-lg-block"
+        /></a>
+        <ul>
+          <a href="index.html"><li class="active">Home</li></a>
+          <a href="about.html"> <li>About Me</li></a>
+          <a href="work.html"><li>Work</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+        </ul>
       </nav>
+    </div>
+    <div id="portfolio container">
       <div class="introduction text-center">
         <h2>
           Hi, I am <br />
@@ -88,7 +73,7 @@
         </h3>
       </div>
       <div class="contacts">
-        <p>
+        <p class="email-me">
           Feel free to e-mail me <br />
           <a
             href="mailto:marinak2008.89@gmail.com"
